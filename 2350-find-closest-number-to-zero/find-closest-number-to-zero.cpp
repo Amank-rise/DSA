@@ -6,7 +6,7 @@ public:
             if(abs(num)<abs(close)){
                 close = num;
             }else if(abs(num)==abs(close)){
-                close = max(close,num);
+               close = max(close,num);
             }
         }return close;
     }
